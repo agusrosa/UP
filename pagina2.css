@@ -1,0 +1,212 @@
+body .logo{
+ display: block;
+position: sticky;
+height: 80px;
+left: 40%;
+}
+#cabezal{
+ background-color: rgb(255, 255, 255);
+ margin-left: -15px;
+ margin-right: -15px;
+ height: 50px;
+ left: 0px;
+ top:0px;
+ display: block;
+ position: sticky;
+ z-index: 100;
+}
+
+body{
+ background-color: rgb(255, 255, 255);
+}
+
+#header{
+/**display: inline-block;**/
+ width: 500px;
+ background-color: rgb(255, 255, 255);
+ font-family: 'Balsamiq Sans', cursive;
+ font-family: 'Righteous', cursive;
+ font-size: 20px;
+ position: sticky;
+ right: -30%;
+ top: 0;
+ padding: 0;
+ margin: auto;
+ text-decoration: none;
+ list-style: none;
+ 
+}
+
+ul, ol{
+ list-style: none;
+}
+
+.nav li a{
+ color: rgb(24, 16, 16);
+ text-decoration: none;
+ padding: 10px 15px;
+ display: block;
+}
+
+.nav > li{
+ float: left;
+}
+.nav li a:hover{
+ background-color: rgb(238, 132, 176);
+ 
+}
+
+.nav li ul{
+ display: none;
+ position: relative;
+ min-width: 100px;
+}
+
+.nav li:hover > ul{
+ display: block;
+ background-color: white;
+ position: absolute;
+}
+
+.foto1{
+
+position: relative;
+background-color: orange;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: left;
+margin-left: -15px;
+margin-right: -15px;
+height: 290px;
+}
+
+.foto1 .texto1{
+ font-size: 30px;
+ position: relative;
+ font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ text-align: justify;
+ left:80px;
+width: 900px;
+display: inline-block;
+}
+
+.foto2{
+ top:0px;
+ position: relative;
+ background-color: rgb(255, 255, 255);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-right: -15px;
+ height: 290px;
+ }
+
+.foto2 .texto2{
+ font-size: 30px;
+ position: relative;
+ font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ text-align: justify;
+width: 900px;
+display: inline-block;
+top:40px;
+left: 30px;
+text-align: center;
+}
+
+.button {
+ background-color: #f165da; 
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+ margin: 4px 2px;
+ cursor: pointer;
+ -webkit-transition-duration: 0.4s;
+ transition-duration: 0.4s;
+
+ position: relative;
+ border-radius: 5px;
+}
+
+.button1:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.foto3{
+ top: 0px;
+ position: relative;
+ background-color: rgb(73, 199, 216);
+ padding-bottom: 10px;
+text-align: left;
+margin-left: -15px;
+margin-right: -15px;
+height: 290px;
+padding-top: 15px;
+ }
+ 
+.foto3 .texto3{
+font-size: 30px;
+position: relative;
+font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+text-align: justify;
+left:80px;
+width: 900px;
+display: inline-block;
+}
+
+.button2 {
+background-color: #f165da; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+margin: 4px 2px;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+top: 10px;
+position: relative;
+left: 350px;
+border-radius: 5px;
+}
+
+.button2:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+footer {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #111;
+    color: #fff;
+    height: fit-content;
+    font-size: 17px;
+    position: relative;
+    margin-bottom: -15px;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 5px;
+
+}
